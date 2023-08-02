@@ -48,14 +48,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '4]^bmZ?Y^|7(ix6] As<cp?yTA<5ab1I3C6o]6fgm+KTvxAo|XIlcB)|e(Va1|Zx');
-define('SECURE_AUTH_KEY',  '-b-Ve1!JDNcmNJt|A-FG&lW-R@Gp(=L_cYP~5%b_hy$Y-0P{6AEkf:*q&hhOl.,-');
-define('LOGGED_IN_KEY',    '|,$Q-P8YotRny>_fm+R@FoNm$J^A$zXDt2GL`QNZvPet}W+g@zBG{x_1AvVl9HAU');
-define('NONCE_KEY',        'Gx4b;<u+DxGWVOI#/`WL{H#cDB,,L-]k&^J!QTm4pwW;Gk|0%1K3&v79U-I~C..<');
-define('AUTH_SALT',        'NEa_-)jhlvC(2oVt:nnNkOe<:Tm$[FI2Wm{<%gT,,l7:kMWEv9-^>=CO]?$=:/MQ');
-define('SECURE_AUTH_SALT', 'iLF_+l=.ad +[arY)X#|rE97+lb+r6*?-3|O%ms*3RJ@OJBJcz_s!.h]PDCI0+D0');
-define('LOGGED_IN_SALT',   'AsTm%!7?:!c}eE^AF*4PI0zK/_NIg|i-r0Y-WMuo,>c7cN7@LC9,q?#dx=_v.j$d');
-define('NONCE_SALT',       'wn=.x?*(].$|j-D9RFOOn_9#[OE,G@@:k@mhn@R=o`-F rflwUSw+*0y+I-}$I+6');
+define('AUTH_KEY',         'N|)<90E2QI0}GI;B1-29>4%$z/j..RtA)Rv>f2Q7>hR+F*|34j7~}L|-uN,^?|0h');
+define('SECURE_AUTH_KEY',  'R~,b.{O&DZ^~Ljub!iB.9:zA</9]hv6)K@XJ>iw|GLb U$}m|F|m,u|[Xv|8TvBh');
+define('LOGGED_IN_KEY',    '4HEM!cG_~>/+?}IL(C.$4/0)+_%,mLyJ+|_W~!X@H/@ID;+ZB8C[$Bq3Sa+SfnHv');
+define('NONCE_KEY',        '`5[&dh$U*S)[0l48>QGR8Ds&@FTv@HPcZ<1!&dX+^$Vwvz;[0Pee:m-28NPiC;Yz');
+define('AUTH_SALT',        'yUdrG[O |c*Sr;t(bS@1FSKE=O*]wb)O2r/aPmmJ:7!OjM]vJE>Qp`WO+MnwZ;7P');
+define('SECURE_AUTH_SALT', 'Uz+2R#.PaX0g~!e&gi/[DeCyoR#8)8&LJ-eCry x8*bI MKrLy!;C70vJhY!=K<O');
+define('LOGGED_IN_SALT',   'bJX/VJ}?/DKRhSr0: v+5N!9&zVqc8i5MbXBRMrNWd76&Q@-?- [MQ,++L6F=.N,');
+define('NONCE_SALT',       '{X}c2rr)A=xv+b#wC.YO,P{&/DMWSF&9X2e5*JT]_2C@spks~H<>2aH+--Q_V|qC');
 /**#@-*/
 
 /**
@@ -83,7 +83,7 @@ define( 'WP_DEBUG', false );
 /* Add any custom values between this line and the "stop editing" line. */
 
 
-
+define('FS_METHOD','direct');
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
